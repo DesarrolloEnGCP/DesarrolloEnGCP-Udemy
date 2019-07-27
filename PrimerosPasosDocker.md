@@ -21,13 +21,12 @@ docker image ls
 docker container ls --all
 ```
 
-## Clonar Repositorio GIT del curso
+## Bajar HTML de Prueba (Hola Mundo)
 ```bash
-docker container ls --all
+wget https://raw.githubusercontent.com/DesarrolloEnGCP/DesarrolloEnGCP-Udemy/master/index.html
 ```
 
-
-## Crear HTML "Hola Mundo"
+## Abrir HTML "Hola Mundo"
 <walkthrough-editor-open-file filePath="./index.html"
-                              text="Open sample file">
+                              text="Abrir Archivo de Prueba">
 </walkthrough-editor-open-file>
