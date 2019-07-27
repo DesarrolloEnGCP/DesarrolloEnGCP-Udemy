@@ -40,7 +40,7 @@ docker container ls --all
 Usaremos la imagen ofician de NGIX (Servidor Web*) desde el repositorio oficial de DockerHub: https://hub.docker.com/_/nginx
 
 ```bash
-docker run --name hola-web -p 8080:80 -v `pwd`:/usr/share/nginx/html:ro -d nginx
+docker run --name hola-web -p 8080:80 -v $(pwd):/usr/share/nginx/html:ro -d nginx
 ```
 
 
