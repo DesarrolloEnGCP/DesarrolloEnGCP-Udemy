@@ -30,18 +30,36 @@ docker image ls
 docker container ls --all
 ```
 
-## Abrir HTML "Hola Mundo"
+## Abrir HTML "Hola Mundo" (y modificar)
 <walkthrough-editor-open-file filePath="./DesarrolloEnGCP-Udemy/index.html"
                               text="Abrir Archivo de Prueba">
 </walkthrough-editor-open-file>
 
-## Ejecutar un contenedor Web
+## Ejecutar un contenedor Web (nombre: hola-web)
 
 Usaremos la imagen ofician de NGIX (Servidor Web*) desde el repositorio oficial de DockerHub: https://hub.docker.com/_/nginx
 
 ```bash
 docker run --name hola-web -p 8080:80 -v $(pwd):/usr/share/nginx/html:ro -d nginx
 ```
+
+## Ver Contenedores (solo los en ejecución)
+```bash
+docker container ls
+```
+
+## Ver Imagenes Descargadas (ahora tenemos dos)
+```bash
+docker image ls
+```
+
+## Detener el contenedor (hola-web)
+```bash
+docker stop hola-web
+```
+
+
+
 
 
 
