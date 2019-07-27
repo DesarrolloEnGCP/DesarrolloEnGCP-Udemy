@@ -5,6 +5,11 @@
 ```bash
 docker --version
 ```
+### Para limpiar todo y comenzar desde cero (si intentaste este tutorial antes) ejecuta este comando:
+```bash
+docker system prune -a
+```
+
 
 ## Bajar y Ejecutar Imagen de Docker "Hola Mundo"
 ```bash
