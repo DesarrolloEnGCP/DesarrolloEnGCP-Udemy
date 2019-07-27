@@ -31,6 +31,6 @@ docker container ls --all
 ```
 
 ## Abrir HTML "Hola Mundo"
-<walkthrough-editor-open-file filePath="./DesarrolloEnGCP-Udemy/index.html"
+<walkthrough-editor-open-file filePath="/jcherrera/DesarrolloEnGCP-Udemy/index.html"
                               text="Abrir Archivo de Prueba">
 </walkthrough-editor-open-file>
