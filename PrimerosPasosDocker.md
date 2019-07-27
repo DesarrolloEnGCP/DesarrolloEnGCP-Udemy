@@ -43,6 +43,10 @@ Usaremos la imagen ofician de NGIX (Servidor Web*) desde el repositorio oficial 
 docker run --name hola-web -p 8080:80 -v $(pwd):/usr/share/nginx/html:ro -d nginx
 ```
 
+## Navegar en nuestro sitio web (hola-mundo)
+<devshell-web-preview-button>
+</devshell-web-preview-button>
+
 ## Ver Contenedores (solo los en ejecución)
 ```bash
 docker container ls
