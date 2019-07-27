@@ -44,8 +44,9 @@ docker run --name hola-web -p 8080:80 -v $(pwd):/usr/share/nginx/html:ro -d ngin
 ```
 
 ## Navegar en nuestro sitio web (hola-mundo)
-<devshell-web-preview-button>
-</devshell-web-preview-button>
+<walkthrough-spotlight-pointer spotlightId="devshell-web-preview-button"
+                               text="Abrir navegador Web en puerto 8080">
+</walkthrough-spotlight-pointer>
 
 ## Ver Contenedores (solo los en ejecución)
 ```bash
