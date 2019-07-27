@@ -34,3 +34,12 @@ docker container ls --all
 <walkthrough-editor-open-file filePath="./DesarrolloEnGCP-Udemy/index.html"
                               text="Abrir Archivo de Prueba">
 </walkthrough-editor-open-file>
+
+## Ejecutar un contenedor Web
+```bash
+docker run --name hola-web -v ./DesarrolloEnGCP-Udemy:/usr/share/nginx/html:ro -d nginx
+```
+
+
+
+
