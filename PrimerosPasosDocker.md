@@ -68,8 +68,10 @@ docker image ls
 docker stop hola-web
 ```
 
-
-
+## Volver a Navegar en nuestro sitio web (falla, el contenedor fue detenido)
+<walkthrough-spotlight-pointer spotlightId="devshell-web-preview-button"
+                               text="Abrir navegador Web en puerto 8080">
+</walkthrough-spotlight-pointer>
 
 
 
