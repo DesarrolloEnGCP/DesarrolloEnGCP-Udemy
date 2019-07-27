@@ -1,7 +1,5 @@
 # Primeros Pasos con Cloud Shell y Docker.
 
-No olvides presionar "enter" despues de cada comando.
-
 ## Comprobar version de Docker
 
 ```bash
